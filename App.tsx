@@ -253,7 +253,7 @@ const App: React.FC = () => {
         <NavButton active={view === 'pos'} onClick={() => setView('pos')} icon={<Plus size={22}/>} label="Order" />
         <NavButton active={view === 'menu'} onClick={() => setView('menu')} icon={<BookOpen size={22}/>} label="Menu" />
         <NavButton active={view === 'history'} onClick={() => setView('history')} icon={<History size={22}/>} label="Log" />
-        <NavButton active={view === 'reports'} onClick={() => setView('reports'} icon={<BarChart3 size={22}/>} label="Income" />
+        <NavButton active={view === 'reports'} onClick={() => setView('reports')} icon={<BarChart3 size={22}/>} label="Income" />
       </nav>
     </div>
   );
